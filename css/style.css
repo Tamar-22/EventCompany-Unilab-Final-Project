@@ -12,6 +12,7 @@ header{
     transform: translate(-50%, -0%);
     z-index: 1;
     opacity: 0.9;
+    position: fixed;
 
 }
 .navbar{
@@ -19,7 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #fff4ec;
-    padding: 20px;
+    padding: 15px;
 }
 .left-header{
     max-width: 170px;
@@ -46,8 +47,9 @@ header{
     margin-left: 10px;
     font-size: 18px;
     color: white;
+    padding-top: 5px;
 }
-.navbar-ul :nth-child(6)::before{
+.navbar-ul, .login-icon::before{
     font-family: fontAwesome;
     content: "\f007";
     margin-right: 8px;
@@ -56,15 +58,41 @@ header{
 }
 .navbar-ul li{
     margin-right: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.mtavari-li{
-    border: 2px solid red;
+.active, .navbar-ul li:hover{
+    background: white;
+    height: 35px;
+    /* width: 120px; */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-ul li a{
     color: #1a1572;
     font-size: 15px;
     font-family:'BPG Glaho';
     font-weight: bold;
+}
+.category-dropdown{
+    display: none;
+}
+.navbar-ul li:hover .category-dropdown{
+    display: block;
+    position: absolute;
+    background: black;
+    top: 65px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.navbar-ul li:hover .category-dropdown li{
+    border-bottom: 1px dotted;
+    border-radius: 0 ;
+    background: transparent;
 }
 .toggle-button{
     color: white;
@@ -351,12 +379,8 @@ footer h4{
     padding-top: 10px;
     font-family:"ArchyEDT-Bold";
 }
-/* .footer-contact-cont h4{
-    font-size: 25px;
-    padding-bottom: 5px;
-} */
 
-.footer-contact-cont p{
+.footer-contact-cont li{
     max-width: 230px;
     width: 100%;
     font-size: 15px;
@@ -366,7 +390,7 @@ footer h4{
     font-size: 25px;
     padding-bottom: 5px;
 } */
-.footer-policy-cont p{
+.footer-policy-cont li{
     /* max-width: 260px;
     width: 100%; */
     font-size: 15px;
@@ -387,15 +411,16 @@ footer h4{
 } */
 .social-media-wrapper i {
     padding-top: 30px;
-}
-.fa-facebook-square{
     font-size: 30px;
+}
+/* .fa-facebook-square{
+    font-size: 35px;
 }
 .fa-instagram{
     font-size: 32px;
-}
+} */
 .fa-youtube{
-    font-size: 33px;
+    margin-left: 15px;
 }
 .footer-cont::before{
     content: "";
@@ -519,9 +544,6 @@ footer h4{
 }
 
 /* services-page */
-.services-li{
-    border: 2px solid red;
-}
 
 /* services-page-section */
 .services-section-container{
@@ -581,31 +603,41 @@ footer h4{
 }
 
 /* contact-us-page */
-.contactus-li{
-    border: 2px solid red;
-}
 .contact-us-page-container{
+    /* max-width: 1200px; */
     width: 100%;
-    height: 400px;
-    background: black;
+    /* margin: 0 auto; */
+    /* height: 400px; */
+    /* background: black; */
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
 .contact-us-page-left{
     width: 50%;
-    padding-left: 170px;
-    padding-top: 20px;
+    /* padding-left: 170px;
+    padding-top: 20px; */
+    background: red;
+    margin-right: 15px;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .name-surname-wrapper{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .label{
     display: flex;
     flex-direction: column;
     color: white;
     font-family:"ArchyEDT-Bold";
+    justify-content: center;
+    align-items: center;
 }
 .input{
     width: 150px;
@@ -625,15 +657,16 @@ footer h4{
 .input-email{
     width: 320px;
     height: 35px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: black;
     border: 2px solid white;
     color: white;
+    
 }
 .textarea-message{
     width: 320px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: black;
     border: 2px solid white; 
     color: white;   
@@ -657,13 +690,13 @@ footer h4{
     width: 50%;
     /* text-align: center; */
     color: white;
-    vertical-align: middle;
+    background: black;
 }
 .contact-us-page-right-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 60px;
+    align-items: center;
 }
 .contact-us-page-right-wrapper h3{
     font-size: 50px;
@@ -679,9 +712,6 @@ footer h4{
 
 
 /* login-page */
-.login-li{
-    border: 2px solid red;
-}
 .login-page-container{
     max-width: 800px;
     width: 100%;

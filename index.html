@@ -23,12 +23,33 @@
             </div>
                 <nav class="navbar-navigation" id="nav">
                     <ul class="navbar-ul">
-                        <li> <a href="index.html" class="mtavari-li" >მთავარი</a></li>
+                        <li> <a href="index.html" class="active" >მთავარი</a></li>
                         <li> <a href="#aboutus">ჩვენ შესახებ</a></li>
-                        <li> <a href="#slick">კატეგორიები</a></li>
-                        <li> <a href="#services">სერვისები</a></li>
+                        <li> <a href="#slick">კატეგორიები</a>
+                            <div class="category-dropdown">
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">დაბადების დღე</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">ვორქშოფი</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">სქესის გაგება</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">საბავშო ფოტოსესია</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li> <a href="#services">სერვისები</a>
+                            <div class="category-dropdown">
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">საბავშო მენიუ</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">სახის მოხატვა</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">ინვენტარი</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">ტორტის მაგიდა</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">ფოტოსესიის კუთხე</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">კონფიტი</a></li>
+                                    <li><a class="dropdown-item" href="services.html" target="-blank">ჰელიუმის ბუშტები</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li> <a href="contactus.html">კონტაქტი</a></li>
-                        <li> <a href="login.html" target="_blank">შესვლა</a></li>
+                        <li> <a href="login.html" target="_blank" class="login-icon">შესვლა</a></li>
                     </ul>
                 </nav>
                 <div class="toggle-button" id="toggleButton">
@@ -156,16 +177,20 @@
     <div class="footer-wrapper">
         <div class="footer-contact-cont">
             <h4>კონტაქტი</h4>
-            <p>Address: 500 Terry Francois Street San Francisco, CA 94158</p>
-            <p>Phone: 123-456-7890</p>
-            <p>Email: info@mysite.com</p>
+            <ul>
+                <li>Address: 500 Terry Francois Street San Francisco, CA 94158</li>
+                <li>Phone: 123-456-7890</li>
+                <li>Email: info@mysite.com</li>
+            </ul>
         </div>
         <div class="footer-policy-cont">
             <h4>წესები</h4>
-            <p>Shipping & Returns</p>
-            <p>Store Policy</p>
-            <p>Payment Methods</p>
-            <p>FAQ</p>
+            <ul>
+                <li>Shipping & Returns</li>
+                <li>Store Policy</li>
+                <li>Payment Methods</li>
+                <li>FAQ</li>
+            </ul>
         </div>
         <div class="footer-social-media-cont">
             <h4>სოციალური-მედია</h4>

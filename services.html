@@ -25,10 +25,31 @@
                     <ul class="navbar-ul">
                         <li> <a href="index.html" target="_blank">მთავარი</a></li>
                         <li> <a href="index.html" target="_blank">ჩვენ შესახებ</a></li>
-                        <li> <a href="category.html" target="_blank" >კატეგორიები</a></li>
-                        <li> <a href="services.html" class="services-li">სერვისები</a></li>
+                        <li> <a href="category.html" target="_blank" >კატეგორიები</a>
+                            <div class="category-dropdown">
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">დაბადების დღე</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">ვორქშოფი</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">სქესის გაგება</a></li>
+                                    <li><a class="dropdown-item" href="category.html" target="-blank">საბავშო ფოტოსესია</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li> <a href="services.html" class="active">სერვისები</a>
+                            <div class="category-dropdown">
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">საბავშო მენიუ</a></li>
+                                    <li><a class="dropdown-item" href="services.html">სახის მოხატვა</a></li>
+                                    <li><a class="dropdown-item" href="services.html">ინვენტარი</a></li>
+                                    <li><a class="dropdown-item" href="services.html">ტორტის მაგიდა</a></li>
+                                    <li><a class="dropdown-item" href="services.html">ფოტოსესიის კუთხე</a></li>
+                                    <li><a class="dropdown-item" href="services.html">კონფიტი</a></li>
+                                    <li><a class="dropdown-item" href="services.html">ჰელიუმის ბუშტები</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li> <a href="contactus.html" target="blank">კონტაქტი</a></li>
-                        <li> <a href="login.html" target="_blank">შესვლა</a></li>
+                        <li> <a href="login.html" target="_blank" class="login-icon">შესვლა</a></li>
                     </ul>
                 </nav>
                 <div class="toggle-button" id="toggleButton">
@@ -69,31 +90,35 @@
         </div>
     </section>
     <!-- footer -->
-<footer class="footer-cont">
-    <div class="footer-wrapper">
-        <div class="footer-contact-cont">
-            <h4>კონტაქტი</h4>
-            <p>Address: 500 Terry Francois Street San Francisco, CA 94158</p>
-            <p>Phone: 123-456-7890</p>
-            <p>Email: info@mysite.com</p>
-        </div>
-        <div class="footer-policy-cont">
-            <h4>წესები</h4>
-            <p>Shipping & Returns</p>
-            <p>Store Policy</p>
-            <p>Payment Methods</p>
-            <p>FAQ</p>
-        </div>
-        <div class="footer-social-media-cont">
-            <h4>სოციალური-მედია</h4>
-            <div class="social-media-wrapper">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+    <footer class="footer-cont">
+        <div class="footer-wrapper">
+            <div class="footer-contact-cont">
+                <h4>კონტაქტი</h4>
+                <ul>
+                    <li>Address: 500 Terry Francois Street San Francisco, CA 94158</li>
+                    <li>Phone: 123-456-7890</li>
+                    <li>Email: info@mysite.com</li>
+                </ul>
+            </div>
+            <div class="footer-policy-cont">
+                <h4>წესები</h4>
+                <ul>
+                    <li>Shipping & Returns</li>
+                    <li>Store Policy</li>
+                    <li>Payment Methods</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="footer-social-media-cont">
+                <h4>სოციალური-მედია</h4>
+                <div class="social-media-wrapper">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			

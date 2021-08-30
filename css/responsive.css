@@ -1,8 +1,4 @@
-@media (max-width: 1125px){
-    header{
-        left: 0px;
-    }
-}
+
 @media (max-width: 868px){
    .toggle-button{
        display: block;
