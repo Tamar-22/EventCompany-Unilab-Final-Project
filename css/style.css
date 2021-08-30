@@ -91,9 +91,9 @@ header{
     height: 100px;
     max-width: 550px;
     width: 100%;
-    top: 35%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-40%);
     z-index: 1;
     /* background-color: teal; */
     opacity: 0.5;
