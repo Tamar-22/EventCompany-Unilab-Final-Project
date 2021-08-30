@@ -5,11 +5,11 @@ body{
 header{
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: absolute;
-    top: 0px;
-    left: 80px;
-    /* transform: translate(-50px, -80px); */
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
     z-index: 1;
     opacity: 0.9;
 
@@ -82,8 +82,8 @@ header{
     display: flex;
 }
 .slider-item{
-    width: 1200px;
-    height: 800px;
+    width: 1000px;
+    /* height: 1000px; */
     position: relative;
 }
 .slider-item h2{
@@ -114,14 +114,15 @@ header{
 }
 /* section2-category */
 .second-slider-cont{
-    position: absolute;
-    top: 550px;
-    left: 85px;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
     height: 500px;
-    background-color: #fff4ec;
+    /* background-color: #fff4ec; */
+    background: red;
     padding-top: 15px;
 }
 .second-slider-cont .next{
@@ -136,7 +137,8 @@ header{
 .second-slider-cont .prev{
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 0%;
+    transform: translate(-0%, -50%);
     color: brown;
     font-size: 40px;
     z-index: 1;
@@ -218,8 +220,8 @@ header{
    max-width: 500px;
    width: 100%;
    margin: 0 auto;
-   padding-top: 420px;
-   background-color: #fff4ec;
+   /* background-color: #fff4ec; */
+   background: red;
 }
 .fa-calendar-week{
     font-size:  100px; 
