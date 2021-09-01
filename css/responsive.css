@@ -10,14 +10,39 @@
        flex-direction: column;
        justify-content: center;
        line-height: 50px;
-       padding-right: 15px;
-       height: 400px;
+       padding-top: 40px;
+       /* height: 400px; */
+       background: black;
+
    }
-   .navbar-ul li {
-      text-align: right;
+   nav ul{
+       float: left;
+       position: relative;
+   }
+   nav ul li{
+    /* text-align: right; */
+    float: right;
+    display: flex;
+    background: black;
+    margin: 0 5px;
+   }
+   nav ul li a{
+       color: white ;
+   }
+   nav ul ul{
+       position: absolute;
+       top: 55px;
+       right: 60px;
+       background: black;
    }
    .navbar-navigation.active{
        display: block;
+   }
+   .active{
+       background: none;
+   }
+   .navbar-ul li:hover .category-dropdown{
+       float: left;
    }
     /* .line{
         width: 30px;
