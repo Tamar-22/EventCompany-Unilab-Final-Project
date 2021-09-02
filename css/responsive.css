@@ -10,7 +10,7 @@
        flex-direction: column;
        justify-content: center;
        line-height: 50px;
-       padding-top: 40px;
+       padding-top: 50px;
        /* height: 400px; */
        background: #120f50;
 
@@ -48,6 +48,7 @@
    .navbar-ul li:hover .category-dropdown{
        float: left;
    }
+/* category-page */
    .category-section-wrapper, .category-section-wrapper2{
        flex-direction: column;
        margin-left: 5px;
@@ -60,9 +61,7 @@
    }
 }
 @media (max-width: 769px){
-    /* .background-video{
-        margin-top: 30px;
-    } */
+/* main-page */
     .second-slider-cont{
     top: 0%;
     left: 50%;
@@ -108,7 +107,8 @@
         align-items: center;
     }
      .lastame-cont{
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
     }
     .right-block-top{
         height: auto;
@@ -119,7 +119,6 @@
         padding-top: 15px;
     }
     .right-block-top h4{
-        font-size: 20px;
         margin-top: 10px;
     }
     .right-block-top p{
@@ -129,7 +128,35 @@
     .left-block p{
         text-align: center;
     }
+    .left-block h4::after{
+        width: 100px;
+    }
+    .slogan-sect-content h3{
+        font-size: 15px;
+    }
+}
+@media (max-width: 250px) {
+    .right-block-top h4{
+        font-size: 20px;
+    }
+    .left-block h4{
+        font-size: 25px;
+    }
     .company-name{
         display: none;
     }
+    .section3-services-learnmore{
+        width: 100px;
+    }
+    .learn-more{
+        padding-top: 10px;
+    }
+    .category-title{
+        font-size: 20px;
+    }
+    .logo{
+        width: 50px;
+    }
+    
 }
+
