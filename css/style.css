@@ -809,7 +809,7 @@ footer h4{
     width: 100%;
     height: 100%;
     background: #32508e ;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     border: none;
 }
@@ -817,14 +817,14 @@ footer h4{
     background: #55ACEE ;
     width: 100%;
     height: 100%;  
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     border: none;
 }
 .email{
     width: 100%;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     /* border: none; */
 }
 .fa-facebook-square{
