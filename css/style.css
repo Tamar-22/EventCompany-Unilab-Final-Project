@@ -378,7 +378,7 @@ header{
     color: #b5b4b2;
 }
 .cont-us-socialicone{
-    max-width: 150px;
+    max-width: 200px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -389,6 +389,9 @@ header{
 .cont-us-socialicone i{
     font-size: 30px;
     color: #fcc4a3;
+}
+.fa-envelope-open{
+    margin-left: 17px;
 }
 .right-block-botton{
     width: 100%;
