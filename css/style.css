@@ -71,8 +71,8 @@ header{
 }
 .active, .navbar-ul li:hover{
     background: #020244;
-    /* height: 35px;
-    width: 100px; */
+    height: 35px;
+    width: 100px;
     border-radius: 3px;
     display: flex;
     align-items: center;
