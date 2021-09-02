@@ -84,6 +84,10 @@ header{
     font-family:'BPG Glaho';
     /* font-weight: bold; */
 }
+/* .header-social-icon {
+    display: none;
+} */
+/* section2-category */
 .category-dropdown{
     display: none;
 }
@@ -641,11 +645,14 @@ footer h4{
 
 .category-section-container h3::after{
     content: "";
-    width: 100px ;
+    max-width: 100px ;
+    width: 100%;
+    margin: 0 auto;
     height: 5px;
     background-color: #332e88;
     display: block;
-    margin-left: 45%;
+    /* margin-left: 45%; */
+    text-align: center;
     margin-top: 10px;
 }
 .category-section-container h3{
