@@ -118,6 +118,7 @@ header{
 .background-video{
     width: 100%;
     position: relative;
+    object-fit: cover;
 	/* height: 650px; */
 	/* background-repeat: no-repeat;
 	background-size: cover;

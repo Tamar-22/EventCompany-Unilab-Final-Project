@@ -55,6 +55,7 @@
    }
    .category-image-container{
        height: auto;
+       margin-top: 20px;
    }
    .category-section-container h3,.category-section-container2 h3, .category-section-container h2{
        text-align: center;
