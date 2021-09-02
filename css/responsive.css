@@ -15,6 +15,9 @@
        background: #120f50;
 
    }
+   .navbar{
+       align-items: flex-start;
+   }
    nav ul{
        float: left;
        position: relative;
@@ -45,41 +48,75 @@
    .navbar-ul li:hover .category-dropdown{
        float: left;
    }
-    /* .line{
-        width: 30px;
-        height: 3px;
-        background-color: white;
-        margin: 5px;
-    }
-    .header{
-        position: relative;
-        padding-top: 5px;
-        left: 0px;
-        
-    }
-    .hamburger{
-        position: absolute;
-        cursor: pointer;
-        right: 5px;
-        top: 50px;
-        transform: translate(-5px, -5px);
-        z-index: 2;
-    }
-
-    .nav-links {
-        position: absolute;
-        background: #fff4ec;
-        height: 470px;
-        width: 100%;
-        flex-direction: column;
-        clip-path: circle(200px at 230% -10%);
-        transition: all 1s ease-out;
-        pointer-events: none;
-        padding-top: 50px;
-    }
-    .nav-links.open {
-        clip-path: circle(2000px at 230% -10%);
-        pointer-events: all;
+}
+@media (max-width: 769px){
+    /* .background-video{
+        margin-top: 30px;
     } */
-    
+    .second-slider-cont{
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    }
+    .about-us-cont{
+        height: auto;
+    }
+    .about-us-wrapper{
+        flex-direction: column;
+    }
+    .left-block{
+        width: 100%;
+    }
+    .right-block{
+        width: 100%;
+    }
+    .services-cont{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 480px){
+    .footer-wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer-social-media-cont{
+        max-width: 250px;
+        width: 100%;
+    }
+    .footer-contact-cont, .footer-policy-cont, .footer-social-media-cont{
+        margin-bottom: 20px;
+    }
+    header{
+       width: 100%;
+    }
+    .form-wrapper, .input, .input-email, .textarea-message, .button-send{
+        width: 100%;
+    }
+    .form-wrapper, .name-surname-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+     .lastame-cont{
+        margin: 0px;
+    }
+    .right-block-top{
+        height: auto;
+    }
+    .right-block-botton{
+        height: auto;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    .right-block-top h4{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .right-block-top p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .left-block p{
+        text-align: center;
+    }
 }
