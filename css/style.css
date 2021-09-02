@@ -752,8 +752,9 @@ footer h4{
     /* text-align: center; */
     margin-top: 25px;
     margin-bottom: 40px;
-    font-size: 25px;
+    font-size: 35px;
     font-family: "ArchyEDT-Bold";
+    color: #f5c057;
 }
 .text-block p{
     width: 90%;
@@ -766,7 +767,7 @@ footer h4{
 .buy-now{
     display: inline-block;
     height: 50px;
-    background-color: #df7757;
+    background-color: #e76f4b;
     color: white;
     cursor: pointer;
     padding-top: 16px;
