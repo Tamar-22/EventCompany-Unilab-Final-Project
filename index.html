@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -87,7 +88,7 @@
 <!-- section2-category -->
     <section  id="slick">
         <div class="second-slider-cont">
-            <a href="category.html" target="_blank"><h3 class="category-title">კატეგორიები</h3></a>
+            <a href="category.html" target="_blank"><h3 class="category-title" data-aos="fade-up">კატეგორიები</h3></a>
             `   <i class="fas fa-chevron-left prev" ></i>
                 <i class="fas fa-chevron-right next"></i>
             <div class="multiple-items multiple-slider">
@@ -146,16 +147,16 @@
 <!-- section3-services -->
 <section id="services" class="services-cont">
     <div class="services-wrapper">
-        <img src="images/eeyore.png">
+        <img src="images/eeyore.png" data-aos="fade-up">
         <!-- <i class="fas fa-calendar-week"></i> -->
-        <h3 class="services-title">სერვისები</h3>
-        <p class="services-paragraph">ზჰბცზ ზკსცჰ ₾ჟშჭუჰდ ხჯცკშჟ ₾შოქჯ ლზსჰცჰკსს კსდიასგ კსგდიასგდ 
+        <h3 class="services-title" data-aos="fade-up">სერვისები</h3>
+        <p class="services-paragraph" data-aos="fade-up">ზჰბცზ ზკსცჰ ₾ჟშჭუჰდ ხჯცკშჟ ₾შოქჯ ლზსჰცჰკსს კსდიასგ კსგდიასგდ 
             ზჰბცზ ზკსცჰ ₾ჟშჭუჰდ ხჯცკშჟ ₾შოქჯ ლზსჰცჰკსს კსდიასგ კსგდიასგდ
             ზჰბცზ ზკსცჰ ₾ჟშჭუჰდ ხჯცკშჟ ₾შოქჯ ლზსჰცჰკსს კსდიასგ კსგდიასგდ
             ზჰბცზ ზკსცჰ ₾ჟშჭუჰდ ხჯცკშჟ ₾შოქჯ ლზსჰცჰკსს კსდიასგ კსგდიასგდ 
         </p>
             <div>
-                <div class="section3-services-learnmore">
+                <div class="section3-services-learnmore" data-aos="fade-up">
                     <div class="learn-more">
                         <a href="services.html" target="_blank"><p> იხილეთ მეტი </p></a>
                     </div>
@@ -199,9 +200,9 @@
                 <h4>დაგვიკავშირდი</h4>
                     <p> მოგესალმებით მხიარულების სამყაროდან! თუ გსურთ ბავშვებს გაულამაზოთ ერთი დღე, მაშინ დაგვიკავშირდით! </p>
                     <div class="cont-us-socialicone">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fas fa-envelope-open"></i>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"></a><i class="fab fa-instagram"></i></a>
+                        <a href="#"></a><i class="fas fa-envelope-open"></i></a>
                     </div>
                 <!-- <h4>ჩვენ შესახებ</h4>
                 <p>აკჯსკას აზკჯფკჯდ აკჯფკჯფა აკჯსფკჯასფ აკჯკას კკჯას კჯჯკა კაკუ კდფკფდ კფდკდუფ ზჰხვცჯჰზდ ზდვჯდ</p> -->
@@ -239,7 +240,7 @@
 </section>
 <!-- slogan-section -->
 <section class="slogan-section">
-    <div class="slogan-sect-content">
+    <div class="slogan-sect-content" data-aos="fade-right">
         <img src="images/sun.webp" alt="slogan-image">
         <h3>მოგესალმებით მხიარულების სამყაროში</h3>
     </div>
@@ -267,9 +268,9 @@
         <div class="footer-social-media-cont">
             <h4>სოციალური-მედია</h4>
             <div class="social-media-wrapper">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"></a><i class="fab fa-instagram"></i></a>
+                <a href="#"></a><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </div>
@@ -278,6 +279,14 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			
 <script src="js/slick.min.js"></script>
+<script src="js/aos.js"></script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 100,
+        duration: 1000
+    });
+  </script>
 <script src="js/app.js"></script> 
          
 </body>

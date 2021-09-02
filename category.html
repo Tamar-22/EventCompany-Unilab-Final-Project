@@ -144,7 +144,7 @@
     </section>
     <!-- slogan-section -->
 <section class="slogan-section category-slogan">
-    <div class="slogan-sect-content">
+    <div class="slogan-sect-content" data-aos="fade-right">
         <img src="images/sun.webp" alt="slogan-image">
         <h3>მოგესალმებით მხიარულების სამყაროში</h3>
     </div>
@@ -172,9 +172,9 @@
             <div class="footer-social-media-cont">
                 <h4>სოციალური-მედია</h4>
                 <div class="social-media-wrapper">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"></a><i class="fab fa-instagram"></i></a>
+                    <a href="#"></a><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -183,6 +183,14 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			
 <script src="js/slick.min.js"></script>
+<script src="js/aos.js"></script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 100,
+        duration: 1000
+    });
+  </script>
 <script src="js/app.js"></script> 
          
 </body>
