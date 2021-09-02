@@ -61,16 +61,18 @@ header{
     
 }
 .navbar-ul li{
-    margin-right: 20px;
+    margin-right: 10px;
     height: 30px;
+    height: 35px;
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .active, .navbar-ul li:hover{
-    background: #0a064b;
-    height: 35px;
-    width: 100px;
+    background: #020244;
+    /* height: 35px;
+    width: 100px; */
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -88,14 +90,14 @@ header{
 .navbar-ul li:hover .category-dropdown{
     display: block;
     position: absolute;
-    background: #120e6e;
+    background: #120f50;
     top: 63px;
     padding-left: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 .navbar-ul li:hover .category-dropdown li{
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted white;
     border-radius: 0 ;
     background: transparent;
     width: 150px;
@@ -291,6 +293,7 @@ header{
     width: 150px;
     height: 60px;
     margin-top: 25px;
+    margin-bottom: 30px;
     background-color: #df7757;
     border-radius: 5px;
 }
@@ -338,6 +341,16 @@ header{
     text-align: center;
     color: #334863;
     font-family:"ArchyEDT-Bold";
+}
+.left-block h4::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .left-block p{
     max-width: 370px;
@@ -407,7 +420,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    max-width: 150px;
+    max-width: 500px;
     width: 100%;
     margin: 0 auto;
 }
@@ -427,7 +440,7 @@ header{
     /* text-align: left; */
 }
 .input{
-    width: 150px;
+    width: 200px;
     height: 35px;
     margin-top: 5px;
     background: rgb(238, 233, 233);
@@ -445,7 +458,7 @@ header{
     margin-bottom: 10px;
 }
 .input-email{
-    width: 320px;
+    width: 420px;
     height: 35px;
     margin-top: 5px;
     background: rgb(238, 233, 233);
@@ -457,7 +470,7 @@ header{
     
 }
 .textarea-message{
-    width: 320px;
+    width: 420px;
     height: 80px;
     margin-top: 5px;
     background: rgb(238, 233, 233);
@@ -468,7 +481,7 @@ header{
     transition: 0.6s;  
 }
 .button-send{
-    width: 320px;
+    width: 420px;
     height: 35px;
     margin-top: 10px;
     color: black;
@@ -723,10 +736,10 @@ footer h4{
     font-size: 20px;
     margin-left: 10px;
 }
-.category-li{
-    border: 2px solid red;
-    padding-block-end: 3px;
+.category-slogan{ 
+    padding-top: 40px;
 }
+
 
 /* services-page */
 
