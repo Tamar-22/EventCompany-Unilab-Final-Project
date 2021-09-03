@@ -18,10 +18,10 @@
    .navbar{
        align-items: flex-start;
    }
-   /* nav ul{
+   nav ul{
        float: left;
        position: relative;
-   } */
+   }
    nav ul li{
     /* text-align: right; */
     float: right;
