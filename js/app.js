@@ -53,6 +53,14 @@ $(function(){
                 slidesToShow: 1,
                 slidesToScroll: 1
               }
+            },
+
+            {
+              breakpoint: 360,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
             }
           ]
       });
