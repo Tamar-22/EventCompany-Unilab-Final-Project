@@ -120,6 +120,13 @@
         margin-left: 0px;
         margin-top: 5px;
     }
+    .left-block{
+        height: auto;
+    }
+    .left-block p{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
     .right-block-top{
         height: auto;
     }
@@ -174,6 +181,9 @@
     .buy-now{
         margin-bottom: 10px;
     }
+    .services-paragraph{
+        font-size: 15px;
+    }
 }
 @media (max-width: 255px) {
     .right-block-top h4{
@@ -210,6 +220,10 @@
     }
     .services-page-block img{
         height: 200px;
+    }
+    .learn-more{
+        font-style: 18px;
+        padding-top: 18px;
     }
     
 }

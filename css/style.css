@@ -848,6 +848,8 @@ footer h4{
 }
 .text-block p{
     width: 90%;
+    line-height: 25px;
+    font-family:'BPG Glaho';
 }
 .services-page-block-wrapper-1{
     display: -webkit-box;
