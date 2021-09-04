@@ -179,6 +179,9 @@
     .right-block-top{
         height: auto;
     }
+    .right-block-top h4{
+        padding-top: 10px;
+    }
     .cont-us-socialicone{
         padding-bottom: 10px;
     }
@@ -186,12 +189,8 @@
         height: auto;
         padding-top: 15px;
     }
-    .right-block-top h4{
-        margin-top: 10px;
-    }
-    .right-block-top p{
-        font-size: 15px;
-        text-align: center;
+    .left-block h4{
+        padding-top: 10px;
     }
     .left-block p{
         text-align: center;
