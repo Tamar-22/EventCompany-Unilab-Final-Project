@@ -438,16 +438,6 @@ header{
     color: #fbdb9a;
     text-align: center;
 }
-.right-block-top p {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 20px;
-    font-family:'BPG Glaho';
-    text-align: left;
-    color: #b5b4b2;
-    line-height: 25px;
-}
 .cont-us-socialicone{
     max-width: 200px;
     width: 100%;
@@ -505,9 +495,9 @@ header{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    max-width: 500px;
+    /* max-width: 500px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 .name-surname-wrapper{
     display: -webkit-box;

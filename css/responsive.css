@@ -109,8 +109,8 @@
     header{
        width: 100%;
     }
-    .form-wrapper, .input, .input-email, .textarea-message, .button-send{
-        width: 100%;
+    .input, .input-email, .textarea-message, .button-send{
+        width: 300px;
     }
     .form-wrapper, .name-surname-wrapper{
         flex-direction: column;
@@ -130,9 +130,11 @@
     .right-block-top{
         height: auto;
     }
+    .cont-us-socialicone{
+        padding-bottom: 10px;
+    }
     .right-block-botton{
         height: auto;
-        margin-top: 15px;
         padding-top: 15px;
     }
     .right-block-top h4{
@@ -185,6 +187,11 @@
         font-size: 15px;
     }
 }
+@media (max-width: 320px){
+    .input, .input-email, .textarea-message, .button-send{
+        width: 200px;
+    }
+}
 @media (max-width: 255px) {
     .right-block-top h4{
         font-size: 20px;
@@ -224,6 +231,9 @@
     .learn-more{
         font-style: 18px;
         padding-top: 18px;
+    }
+    .input, .input-email, .textarea-message, .button-send{
+        width: 100%;
     }
     
 }
