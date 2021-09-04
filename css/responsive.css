@@ -243,6 +243,25 @@
     .input, .input-email, .textarea-message, .button-send{
         width: 200px;
     }
+    .category-image {
+        height: 70%;
+    }
+    .second-slider-cont .next{
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        -webkit-transform: translate(-0%,-50%);
+            -ms-transform: translate(-0%,-50%);
+                transform: translate(-0%,-50%);
+    }
+    .second-slider-cont .prev{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        -webkit-transform: translate(-0%, -50%);
+            -ms-transform: translate(-0%, -50%);
+                transform: translate(-0%, -50%);
+    }
 }
 @media (max-width: 255px) {
     .right-block-top h4{
