@@ -1,3 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
 
 @media (max-width: 868px){
    .toggle-button{
@@ -7,8 +28,13 @@
        display: none;
    }
    .navbar-ul{
-       flex-direction: column;
-       justify-content: center;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
        line-height: 50px;
        padding-top: 50px;
        /* height: 400px; */
@@ -16,7 +42,9 @@
 
    }
    .navbar{
-       align-items: flex-start;
+       -webkit-box-align: start;
+           -ms-flex-align: start;
+               align-items: flex-start;
    }
    /* nav ul{
        float: left;
@@ -25,6 +53,8 @@
    nav ul li{
     /* text-align: right; */
     float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #120f50;
     margin: 0 5px;
@@ -50,7 +80,10 @@
    }
 /* category-page */
    .category-section-wrapper, .category-section-wrapper2{
-       flex-direction: column;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
        margin-left: 5px;
    }
    .category-image-container{
@@ -64,7 +97,10 @@
     height: auto;
 }
 .about-us-wrapper{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .left-block{
     width: 100%;
@@ -81,7 +117,9 @@
     .second-slider-cont{
     top: 0%;
     left: 50%;
-    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
+        -ms-transform: translate(-50%, -0%);
+            transform: translate(-50%, -0%);
     }
     /* services-page */
     .services-page-block{
@@ -95,9 +133,15 @@
 }
 @media (max-width: 480px){
     .footer-wrapper{
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .footer-social-media-cont{
         max-width: 250px;
@@ -113,8 +157,13 @@
         width: 300px;
     }
     .form-wrapper, .name-surname-wrapper{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
      .lastame-cont{
         margin-left: 0px;
@@ -170,7 +219,10 @@
         margin: 0 auto;
     }
     .services-page-block-wrapper, .services-page-block-wrapper-1{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .text-block{
         width: 100%;
@@ -219,8 +271,12 @@
     }
     .google, .facebook{
         font-size: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .email{
         font-size: 15px;
@@ -229,7 +285,7 @@
         height: 200px;
     }
     .learn-more{
-        font-style: 18px;
+        font-size: 18px;
         padding-top: 18px;
     }
     .input, .input-email, .textarea-message, .button-send{
