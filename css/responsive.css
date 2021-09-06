@@ -130,6 +130,13 @@
     .services-page-block img{
         height: 300px;
     }
+    .footer-contact-cont, .footer-policy-cont, .footer-social-media-cont{
+        margin-left: 10px;
+    }
+    .footer-contact-cont li, .footer-policy-cont li{
+        border-bottom: 1px dotted white;
+    }
+    
 }
 @media (max-width: 480px){
     .footer-wrapper{
@@ -144,11 +151,14 @@
                 align-items: center;
     }
     .footer-social-media-cont{
-        max-width: 250px;
+        max-width: 300px;
         width: 100%;
     }
     .footer-contact-cont, .footer-policy-cont, .footer-social-media-cont{
         margin-bottom: 20px;
+    }
+    .footer-contact-cont li, .footer-policy-cont li{
+        border-bottom: none;
     }
     header{
        width: 100%;
