@@ -146,7 +146,7 @@ header{
     border-bottom: 1px dotted white;
     border-radius: 0 ;
     background: transparent;
-    width: 150px;
+    width: 200px;
 }
 .toggle-button{
     color: white;
@@ -239,7 +239,7 @@ header{
     -o-transition: 0.8s ease-out;
     transition: 0.8s ease-out;
 }
-.category-image img{
+.category-image a img{
     width: 100%;
     height: 100%;
 
@@ -249,10 +249,10 @@ header{
         -ms-transform: scale(1.1);
             transform: scale(1.1);
 }
-.multiple-slider .second-slider-item .category-image:hover::after{
+.multiple-slider .second-slider-item .category-image a:hover::after{
     opacity: 0;
 }
-.category-image::after{
+.category-image a::after{
     content: "";
     position: absolute;
     top: 0;
