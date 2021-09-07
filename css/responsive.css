@@ -247,6 +247,10 @@
     .services-paragraph{
         font-size: 15px;
     }
+    .line{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 }
 @media (max-width: 320px){
     .input, .input-email, .textarea-message, .button-send{
@@ -270,6 +274,9 @@
         -webkit-transform: translate(-0%, -50%);
             -ms-transform: translate(-0%, -50%);
                 transform: translate(-0%, -50%);
+    }
+    .line{
+        width: 100px;
     }
 }
 @media (max-width: 255px) {
@@ -295,7 +302,7 @@
         width: 50px;
     }
     .line{
-        width: 50px;
+        width: 70px;
     }
     .google, .facebook{
         font-size: 15px;
