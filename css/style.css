@@ -238,10 +238,12 @@ header{
     -webkit-transition: 0.8s ease-out;
     -o-transition: 0.8s ease-out;
     transition: 0.8s ease-out;
+    object-fit: cover
 }
 .category-image a img{
     width: 100%;
     height: 100%;
+    object-fit: cover
 
 }
 .multiple-slider .second-slider-item .category-image:hover{
@@ -799,6 +801,9 @@ footer h4{
 /* services-page */
 
 /* services-page-section */
+.services-body{
+    overflow-X:hidden;
+}
 .services-page-block{
     max-width: 750px;
     width: 100%;
@@ -820,6 +825,7 @@ footer h4{
 .services-page-block img{
     width: 50%;
     height: 400px;
+    object-fit: cover;
 }
 .text-block{
     width: 50%;
