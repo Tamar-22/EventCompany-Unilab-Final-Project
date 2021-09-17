@@ -653,7 +653,7 @@ footer h4{
     font-family:"ArchyEDT-Bold";
 }
 
-.footer-contact-cont li, .footer-policy-cont li{
+.footer-contact li a, .footer-policy li a{
     font-size: 15px;
     line-height: 25px;
     color: white;
